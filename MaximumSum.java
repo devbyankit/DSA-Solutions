@@ -1,6 +1,12 @@
-
+/**
+*Problem Description:
+*Given an array of integers and an integer k, 
+*The task is to find the maximum value for each contiguous subarray of size k. 
+*The output should be an array of maximum values corresponding to each contiguous subarray.
+*/
 import java.util.*;
 /**
+ 
  * The class provides a method to find the maximum element in
  * every contiguous sub-array of size k in a given integer array.
  * This is commonly known as the "Sliding Window Maximum" problem.
