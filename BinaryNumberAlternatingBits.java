@@ -8,10 +8,11 @@
 public class BinaryNumberAlternatingBits {
 
     public boolean hasAlternatingBits(int n) {
-        String binaryNumber = Integer.toBinaryString(n);
+        String binaryNumber = Integer.toBinaryString(n);// converting the integer into string representation of bits
 
         for(int i =0;i<binaryNumber.length()-1;i++){
-            if(binaryNumber.charAt(i)== binaryNumber.charAt(i+1)){
+
+            if(binaryNumber.charAt(i)== binaryNumber.charAt(i+1)){ // checking the current and the next element
                 return false;
             }
         }
